@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+<body>
+    <h1>Mira's Travel Blog</h1>
+    <form action="">
+        <input type="hidden" id="entryId" value="">
+    </form>
+    <form action="" id="nameOfPlaceForm">
+        <fieldset>
+            <label for="nameOfPlace">Point of Interest</label>
+            <input type="text" name="nameOfPlace" id="nameOfPlace">
+        </fieldset>
+    </form>
+
+    <form action="" id="descriptionForm">
+        <fieldset>
+            <label for="description">Description</label>
+            <textarea cols="30" rows="3" name="description" id="description"></textarea>
+        </fieldset>
+    </form>
+
+    <form action="" id="costForm">
+        <fieldset>
+            <label for="cost">Cost</label>
+            <input name="cost" id="cost"></input>
+        </fieldset>
+    </form>
+
+    <form action="" id="destinationForm">
+        <fieldset>
+            <label for="destination">Destination</label>
+            <select name="destination" id="destination">
+                <option value="italy">Italy</option>
+                <option value="switzerland">Switzerland</option>
+                <option value="france">France</option>
+            </select>
+        </fieldset>
+    </form>
+    <form action="" id="reviewForm">
+        <fieldset>
+            <label for="review">Review</label>
+            <textarea cols="30" rows="3" name="review" id="review"></textarea>
+        </fieldset>
+    </form>
+    <button class="saveBtn" type="submit">
+        Save Entry
+    </button>
+    <br>
+    <h1>Points of Interest</h1>
+    <article id="blogContainer"></article>
+    <script type="module" src="/scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+{
+  "places": [
+    {
+      "id": 1,
+      "name": "Italy",
+      "visa_required": false
+    },
+    {
+      "id": 2,
+      "name": "Switzerland",
+      "visa_required": true
+    },
+    {
+      "id": 3,
+      "name": "France",
+      "visa_required": false
+    }
+  ],
+  "interests": [
+    {
+      "placeId": 1,
+      "name": "Local Markets",
+      "description": "Local market where you can purchase local products and try the local foods",
+      "cost": "10.01",
+      "review": "You can definitely get things for a lower price if you are willing to bargain!",
+      "id": 1
+    },
+    {
+      "placeId": 2,
+      "name": "Local Market",
+      "description": "Local market where you can purchase local products and try the local food",
+      "cost": "9.00",
+      "review": "You can definitely get things for a lower price if you are willing to bargain!",
+      "id": 2
+    },
+    {
+      "placeId": 3,
+      "name": "Local Market",
+      "description": "Local market where you can purchase local products and try the local food",
+      "cost": "9.00",
+      "review": "You can definitely get things for a lower price if you are willing to bargain!",
+      "id": 2
+    },
+    {
+      "placeId": 1,
+      "name": "Museum",
+      "description": "cool old stuff",
+      "cost": "10.00",
+      "review": "this is cool",
+      "id": 3
+    },
+    {
+      "placeId": 1,
+      "name": "Fancy restaurant",
+      "description": "mmm delicious",
+      "cost": "10.00",
+      "review": "",
+      "id": 5
+    }
+  ]
+}
